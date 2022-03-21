@@ -26,11 +26,7 @@ class CalendarsController < ApplicationController
 
     # Dateオブジェクトは、日付を保持しています。下記のように`.today.day`とすると、今日の日付を取得できます。
     @todays_date = Date.today
-<<<<<<< HEAD
     # 例)今日が2月1日の場合・・・ Date.today.day => 1日
-=======
-    # 例) 今日が2月1日の場合・・・ Date.today.day => 1日
->>>>>>> c70c6f3ef77ce107298967b101e75aa85cc6425a
 
     @week_days = []
 
